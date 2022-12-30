@@ -1,0 +1,58 @@
+<style>
+    body {
+        background-color: black;
+        background-image: url('https://i.ibb.co/zbf8Hsz/home.png');
+        background-repeat: no-repeat;
+        background-size: 1200px 700px;
+        background-position-x: center;
+        background-position-y: top;
+        text-align: center;
+        margin: auto;
+        padding: none;
+        
+    }
+
+    .bottom {
+        margin-top: 500px;
+    }
+
+    h1{
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+    }
+
+    h2{
+        color: gold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+    }
+
+    input {
+        border: 2px solid white;
+        background-color: lightblue;
+        color: white;
+        font-size: 1em;
+}
+</style>
+
+<html>
+    <body>
+        
+        <form  class="bottom" method="POST" action=""> 
+            <div>
+                <h1>Enter your material below:</h1>   
+                <input type="text" name="material" value="">
+            </div>
+            </br>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+        </br>
+        <h2>
+            Alternative: {{alt}}
+        </h2>
+        
+    </body>
+</html>
