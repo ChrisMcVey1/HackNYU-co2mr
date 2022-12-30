@@ -3,7 +3,9 @@
 
 This project provides an intuitive web service that allows users to easily research greener alternatives to their construction materials using a database. 
 
-Created for Superhacks 2021 - awarded 3rd place overall
+Created for HackNYU 2021 🤖
+
+Awarded 3rd place overall 🏆
 
 ## Requirements
 
